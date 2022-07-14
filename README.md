@@ -3,7 +3,7 @@
 
 1. The app can be run in the console with `./task`.
 
-2. The app should read from and write to a task.txt text file. Each task occupies a single line in this file. Each line in the file should be in this format :
+2. The app reads from and write to a task.txt text file. Each task occupies a single line in this file. Each line in the file should be in this format :
 
    ```
    p task
@@ -41,7 +41,7 @@
 
    The application must open the files task.txt and completed.txt from where the app is run, and not where the app is located. For example, if we invoke the app like this:
 
-6. The files should always be sorted in order of the priority, ie, the task with the highest priority should be first item in the file.
+6. The files are always sorted in order of the priority, ie, the task with the highest priority should be first item in the file.
 
    ```
    $ cd /path/to/plans
@@ -49,7 +49,7 @@
    $ /path/to/apps/task ls
    ```
 
-   The application should look for the text files in `/path/to/plans`, since that is the user’s current directory.
+   The application looks for the text files in `/path/to/plans`, since that is the user’s current directory.
 
 ## Usage
 
