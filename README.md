@@ -3,7 +3,7 @@
 
 1. The app can be run in the console with `./task`.
 
-2. The app reads from and write to a task.txt text file. Each task occupies a single line in this file. Each line in the file should be in this format :
+2. The app reads from and write to a task.txt text file. Each task occupies a single line in this file. Each line in the file is in this format :
 
    ```
    p task
@@ -11,7 +11,7 @@
 
    where `p` is the priority ( priority will be a number) and `task` is the task description.
 
-   > Priority denotes how important a task is, if it is a high priority task, it should be completed earlier. Priority is denoted using an integer, the lower the number, the higher the priority.
+   > Priority denotes how important a task is, if it is a high priority task, it will be completed earlier. Priority is denoted using an integer, the lower the number, the higher the priority.
 
    Here is an example file that has 2 items.
 
@@ -20,7 +20,7 @@
    2 Complete the project
    ```
 
-3. Completed task are writted to a completed.txt file. Each task occupies a single line in this file. Each line in the file should be in this format :
+3. Completed task are writted to a completed.txt file. Each task occupies a single line in this file. Each line in the file is in this format :
 
    ```
    task
@@ -37,11 +37,11 @@
 
 4. Priority can be any integer _greater than_ or _equal to_ 0. 0 being the highest priority
 
-5. If two task have the same priority, the task that was added first should be displayed first.
+5. If two task have the same priority, the task that was added first will be displayed first.
 
-   The application must open the files task.txt and completed.txt from where the app is run, and not where the app is located. For example, if we invoke the app like this:
+   The application opens the files task.txt and completed.txt from where the app is run, and not where the app is located. For example, if we invoke the app like this:
 
-6. The files are always sorted in order of the priority, ie, the task with the highest priority should be first item in the file.
+6. The files are always sorted in order of the priority, ie, the task with the highest priority will be first item in the file.
 
    ```
    $ cd /path/to/plans
